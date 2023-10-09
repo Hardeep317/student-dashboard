@@ -1,0 +1,43 @@
+.form{
+    text-align: center;
+}
+
+input{
+    margin: 5px auto;
+}
+
+.sidebar{
+    width: 20%;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.main_container{
+    display: flex;
+    /* align-items: center; */
+    justify-items: space-around;
+}
+
+#container{
+    width: 60%;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container{
+    border: 2px solid black;
+    flex: 1 0 150px;
+    text-align: center;
+}
+
+.image{
+    width: 40px;
+    height: 40px;
+}
+
+button{
+    margin: 5px auto;
+}

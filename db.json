@@ -1,0 +1,28 @@
+{
+  "masai": [
+    {
+      "id": "2",
+      "name": "Pavan",
+      "batch": "Ninja",
+      "section": "A",
+      "score": "1",
+      "image": "https://allworldpm.com/wp-content/uploads/2016/10/230x230-avatar-dummy-profile-pic.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Praveen",
+      "batch": "Samurai",
+      "section": "B",
+      "score": 5,
+      "image": "https://allworldpm.com/wp-content/uploads/2016/10/230x230-avatar-dummy-profile-pic.jpg"
+    },
+    {
+      "name": "Hardeep ",
+      "batch": "Alpha",
+      "section": "C",
+      "score": "8",
+      "image": "https://pixy.org/src/20/201310.jpg",
+      "id": "YXssaCm"
+    }
+  ]
+}

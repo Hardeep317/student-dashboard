@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <title>Student Database</title>
+  </head>
+  <body>
+    <div class="main_container">
+      <div class="sidebar">
+        <h3>Add Student</h3>
+        <form action="" class="form">
+          <input type="text" placeholder="Student Name" id="name" />
+          <br />
+          <input type="text" placeholder="Student Batch" id="batch" />
+          <br />
+          <input type="text" placeholder="Student Section" id="section" />
+          <br />
+          <input type="text" placeholder="Eval Score" id="eval_score" />
+          <br />
+          <input type="text" placeholder="Image Url" id="image" />
+          <br />
+          <button id="add_student">Add Student</button>
+        </form>
+
+        <h3>Update Score</h3>
+        <input type="text" placeholder="Update Score" id="new_score">
+        <h3>Sort Based On Score</h3>
+        <button id="sort-low-to-high">Sort Low To High</button>
+        <button id="sort-high-to-low">Sort High to Low</button>
+        <h3>Filter By Score</h3>
+        <button id="greater-than">Score>=5</button>
+        <br>
+        <button id="less-than">Score<span><</span>=5</button>
+      </div>
+      <!-- </div> -->
+      <!-- <div> -->
+        <div id="container"></div>
+      <!-- </div> -->
+    </div>
+    <script src="./src/scripts/index.js"></script>
+  </body>
+</html>
+
